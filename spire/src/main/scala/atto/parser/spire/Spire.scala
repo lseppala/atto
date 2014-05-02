@@ -7,6 +7,8 @@ import atto.syntax.parser._
 import scala.{ Int, Long, BigInt, StringContext }
 import scalaz.Order
 import scalaz.syntax.order._
+import scalaz.std.anyVal._
+import scalaz.std.math.bigInt._
 
 trait Spire {
   import combinator._
